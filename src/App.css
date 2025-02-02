@@ -1,0 +1,162 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* src/App.css */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.character-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.character-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.character-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.character-card h3 {
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+.character-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.debut-info p,
+.personal-info p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.jutsu,
+.family,
+.unique-traits {
+  margin-top: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 0.9em;
+}
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.modal-left {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.modal-left img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.modal-right {
+  flex: 2;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.modal-right h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background-color: #d32f2f;
+}
